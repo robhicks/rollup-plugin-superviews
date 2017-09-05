@@ -5,7 +5,7 @@ let createFilter = require('rollup-pluginutils').createFilter
 module.exports = function(options = {}){
   let filter = createFilter( options.include, options.exclude )
   return {
-    transform: function sourceToCode(code, id){
+    transform(code, id){
       if ( !filter( id ) ) return null
 
       let s = new MagicString( code )
