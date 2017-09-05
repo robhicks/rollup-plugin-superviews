@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "rob@savvagent.com",
+  "license": "MIT",
   "dependencies": {
     "magic-string": "^0.22.4",
     "rollup-pluginutils": "^2.0.1",
