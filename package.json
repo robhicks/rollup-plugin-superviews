@@ -1,0 +1,16 @@
+{
+  "name": "rollup-plugin-superviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "magic-string": "^0.22.4",
+    "rollup-pluginutils": "^2.0.1",
+    "superviews.js": "^3.0.4"
+  }
+}
