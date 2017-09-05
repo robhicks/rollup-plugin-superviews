@@ -1,12 +1,12 @@
 {
   "name": "rollup-plugin-superviews",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rollup plugin to compile html to incremental-dom using superviews.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rob@savvagent.com",
+  "author": "rob@hixfamily.org",
   "license": "MIT",
   "dependencies": {
     "magic-string": "^0.22.4",

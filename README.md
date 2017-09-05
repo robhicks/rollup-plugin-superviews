@@ -1,12 +1,12 @@
 rollup-plugin-superviews
 ========================
 
-This is a thin wrapper around [superviews.js](https://github.com/davidjamesstone/superviews.js). It provides support for compiling html templates using superviews, which uses Google's [incremental-dom](http://google.github.io/incremental-dom/).
+This is a Rollup plugin to compile html to [incremental-dom](http://google.github.io/incremental-dom/) using [superviews.js](https://github.com/davidjamesstone/superviews.js).  
 
 # Installation and Rollup Configuration
 Install it using npm: ```npm i rollup-plugin-superviews -D```.
 
-Incorporate it into your rollup config file:
+Incorporate it into your rollup config file. For a list of available options, see [superviews.js](https://github.com/davidjamesstone/superviews.js).
 
 ```Javascript
 const superviews = require('rollup-plugin-superviews');
@@ -28,8 +28,6 @@ export default [
   }
 ];
 ```
-
-For a list of available options, see [superviews.js](https://github.com/davidjamesstone/superviews.js).
 
 # Use
 
